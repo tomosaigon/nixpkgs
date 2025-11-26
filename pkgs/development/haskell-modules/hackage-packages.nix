@@ -206114,7 +206114,7 @@ self: {
      }) {};
 
   "semver-range" = callPackage
-    ({ mkDerivation, base, classy-prelude, hspec, parsec, QuickCheck
+    ({ mkDerivation, base, classy-prelude, fetchurl, hspec, parsec, QuickCheck
      , text, unordered-containers
      }:
      mkDerivation {
